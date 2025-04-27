@@ -13,5 +13,17 @@ Typically, installation should be `C:\Program Files (x86)\Steam\steamapps\common
 
 Then, navigate to `game\gui` folder to find `shorcuts.shortcuts` file.
 
+Replace the file with mine, or open it with a text editor like notepad++, and add those lines
+
+```
+# Grant/revoke title
+	grant_to = "G"
+	grant_title_local = "H"
+```
+
+at the bottom of the file, **BEFORE** the last brace
+
+![Example of shortcut file.](/pics/example_shortcuts.png "Example of the shortcut file.")
+
 **NOTE: When updating your game, of the mod, you may have to redo this step again.**
 
