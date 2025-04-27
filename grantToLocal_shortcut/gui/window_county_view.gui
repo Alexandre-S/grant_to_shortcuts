@@ -1106,6 +1106,7 @@ window = {
 
 						button_standard = {
 							name = "toggle_find_vassal"
+							shortcut = "grant_to"
 							visible = "[And(And( ObjectsEqual( HoldingView.GetTitle.GetHolder, GetPlayer ), Not(HoldingView.GetTitle.IsLeasedOut) ), Not(HoldingView.GetProvince.IsRealmCapital))]"
 							enabled = "[HoldingView.CanGrantTitle]"
 							text = "FIND_VASSAL_HEADER"
