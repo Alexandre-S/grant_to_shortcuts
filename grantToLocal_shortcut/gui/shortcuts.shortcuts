@@ -118,7 +118,7 @@
 	court_scene_editor_toolset_scale = "r"
 	court_scene_editor_toolset_toggle = "t"
 
-# Grant/revoke title
+# Grant title
 	grant_to = "G"
 	grant_title_local = "H"
 }

@@ -16,7 +16,7 @@ Then, navigate to `game\gui` folder to find `shorcuts.shortcuts` file.
 Replace the file with mine, or open it with a text editor like notepad++, and add those lines
 
 ```
-# Grant/revoke title
+# Grant title
 	grant_to = "G"
 	grant_title_local = "H"
 ```
