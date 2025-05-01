@@ -27,3 +27,21 @@ at the bottom of the file, **BEFORE** the last brace
 
 **NOTE: When updating your game, of the mod, you may have to redo this step again.**
 
+# Manual installation
+
+- Download the package
+
+- Extract the `grantToLocal_shortcut` folder to this location (replace `YOURUSERNAME` with your windows user account name) : `C:\Users\YOURUSERNAME\Documents\Paradox Interactive\Crusader Kings III\mod`
+
+- In your `Documents\Paradox Interactive\Crusader Kings III\mod` folder, you have to create a file named `grantToLocal_shortcut.mod`, and paste inside this content (again, replace `YOURUSERNAME` with your windows user account name)
+
+```
+version="0.1"
+tags={
+	"Utilities"
+}
+name="grantToLocal_shortcut"
+supported_version="1.15.0.2"
+path="C:/Users/YOURUSERNAME/Documents/Paradox Interactive/Crusader Kings III/mod/grantToLocal_shortcut"
+```
+- Save the file, launch the game, add the mod to a playlist, enjoy :)
