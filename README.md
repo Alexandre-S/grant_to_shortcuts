@@ -45,3 +45,6 @@ supported_version="1.15.0.2"
 path="C:/Users/YOURUSERNAME/Documents/Paradox Interactive/Crusader Kings III/mod/grantToLocal_shortcut"
 ```
 - Save the file, launch the game, add the mod to a playlist, enjoy :)
+
+# Special Thanks
+Zacho for alpha testing 

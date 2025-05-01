@@ -38,6 +38,7 @@ window = {
 		
 			button_standard_clean = {
 				name = "grant_to_same_culture_noble"
+				shortcut = "grant_title_same"
 				onclick = "[FindVassalListWindow.GetTitle.CreateHolderForTitle]"
 				onclick = "[FindVassalListWindow.Close]"
 				using = tooltip_se

@@ -122,5 +122,6 @@
 
 # Grant title
 	grant_to = "G"
-	grant_title_local = "H"
+	grant_title_same = "H"
+	grant_title_local = "J"
 }
