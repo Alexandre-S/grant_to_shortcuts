@@ -97,6 +97,7 @@ window = {
 			
 			button_standard_clean = {
 				name = "grant_to_local_culture_noble"
+				shortcut = "grant_title_local"
 				visible = "[Not( ObjectsEqual( FindVassalListWindow.GetTitle.GetProvince.GetCulture, GetPlayer.GetCulture ) )]"
 				onclick = "[FindVassalListWindow.GetTitle.CreateLocalHolderForTitle]"
 				onclick = "[FindVassalListWindow.Close]"

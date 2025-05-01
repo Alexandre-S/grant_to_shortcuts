@@ -3,4 +3,4 @@ tags={
 	"Utilities"
 }
 name="grantToLocal_shortcut"
-supported_version="1.15.0.2"
+supported_version="1.16.*"
