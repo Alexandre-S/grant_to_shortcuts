@@ -41,7 +41,7 @@ window = {
 				onclick = "[FindVassalListWindow.GetTitle.CreateHolderForTitle]"
 				onclick = "[FindVassalListWindow.Close]"
 				using = tooltip_se
-				tooltip = "GRANT_TO_SAME_CULTURE_NOBLE_BUTTON_HOLDING_VIEW_TOOLTIP"
+				tooltip = "[FindVassalListWindow.GetGrantVassalToSameCultureTooltip]"
 				
 				layoutpolicy_horizontal = expanding
 				size = { 200 140 }
@@ -97,7 +97,6 @@ window = {
 			
 			button_standard_clean = {
 				name = "grant_to_local_culture_noble"
-				shortcut = "grant_title_local"
 				visible = "[Not( ObjectsEqual( FindVassalListWindow.GetTitle.GetProvince.GetCulture, GetPlayer.GetCulture ) )]"
 				onclick = "[FindVassalListWindow.GetTitle.CreateLocalHolderForTitle]"
 				onclick = "[FindVassalListWindow.Close]"
